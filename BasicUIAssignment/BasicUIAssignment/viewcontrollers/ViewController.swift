@@ -9,10 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var tfDOB: UITextField!
-     var selectedGender : Int = -1
-     private var datepicker : UIDatePicker?
+    var selectedGender : Int = -1
+    private var datepicker : UIDatePicker?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,8 +23,8 @@ class ViewController: UIViewController {
         tfDOB.inputView=datepicker
         
     }
-    @objc func selectDate(datepicker:UIDatePicker)
-    {
+    
+    @objc func selectDate(datepicker:UIDatePicker){
         let dateformat = DateFormatter()
         dateformat.dateFormat = "yyyy-MM-dd"
         tfDOB.text=dateformat.string(from: datepicker.date)
@@ -36,7 +36,7 @@ class ViewController: UIViewController {
         selectedGender = sender.selectedSegmentIndex
         
     }
-
+    
     @IBAction func btnRegister(_ sender: Any) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: ProfileViewController.identifier) as! ProfileViewController
@@ -46,6 +46,6 @@ class ViewController: UIViewController {
         
     }
     
-   
+    
 }
 

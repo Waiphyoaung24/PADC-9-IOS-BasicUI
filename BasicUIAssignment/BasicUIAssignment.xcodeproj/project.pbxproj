@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		740DF7BC22F2EBF10020F6F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740DF7BB22F2EBF10020F6F1 /* Main.storyboard */; };
 		745D2E9922F2D894002795CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745D2E9822F2D894002795CF /* AppDelegate.swift */; };
 		745D2E9B22F2D894002795CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745D2E9A22F2D894002795CF /* ViewController.swift */; };
 		745D2E9E22F2D894002795CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 745D2E9C22F2D894002795CF /* Main.storyboard */; };
@@ -17,7 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		740DF7BB22F2EBF10020F6F1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "../../../../PADC-9-IOS-WPA-BASICUI/Main.storyboard"; sourceTree = "<group>"; };
 		745D2E9522F2D894002795CF /* BasicUIAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicUIAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		745D2E9822F2D894002795CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		745D2E9A22F2D894002795CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +40,6 @@
 		745D2E8C22F2D894002795CF = {
 			isa = PBXGroup;
 			children = (
-				740DF7BB22F2EBF10020F6F1 /* Main.storyboard */,
 				745D2E9722F2D894002795CF /* BasicUIAssignment */,
 				745D2E9622F2D894002795CF /* Products */,
 			);
@@ -147,7 +144,6 @@
 				745D2EA322F2D895002795CF /* LaunchScreen.storyboard in Resources */,
 				745D2EA022F2D895002795CF /* Assets.xcassets in Resources */,
 				745D2E9E22F2D894002795CF /* Main.storyboard in Resources */,
-				740DF7BC22F2EBF10020F6F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
